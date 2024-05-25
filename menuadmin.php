@@ -1,11 +1,15 @@
 <?php
+
 session_start();
 
 if($_SESSION['nivel'] != 1){
    
         header('Location: index.html');
+
 }
+
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,6 +45,7 @@ if($_SESSION['nivel'] != 1){
 
 <body>
     <div class="container-xxl position-relative bg-white d-flex p-0">
+        
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -131,7 +136,7 @@ if($_SESSION['nivel'] != 1){
                             <span class="d-none d-lg-inline-flex">Utilizadores</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-light border-0 rounded-0 rounded-bottom m-0">
-                            <a href="" class="dropdown-item">Adicionar</a>
+                            <a href="adicionarutilizador.php" class="dropdown-item">Adicionar</a>
                             <a href="" class="dropdown-item">Editar</a>
                             <a href="" class="dropdown-item">Remover</a>
                         </div>
