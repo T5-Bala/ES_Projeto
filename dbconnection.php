@@ -6,9 +6,9 @@ $username = 'root';
 $password = '';
 
 
-$connect = mysqli_connect($host, $username, $password, $dbName);
+$conn = mysqli_connect($host, $username, $password, $dbName);
 
-if(!$connect){
+if(!$conn){
     die('Connection failed: '.mysqli_connect_error());
 }
 

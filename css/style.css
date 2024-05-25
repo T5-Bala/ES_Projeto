@@ -13,6 +13,11 @@
     z-index: 99;
 }
 
+html{
+
+    background-color: #FFFFFF;
+}
+
 
 /*** Spinner ***/
 #spinner {
@@ -77,6 +82,7 @@
     background: var(--light);
     transition: 0.5s;
     z-index: 999;
+    background-color: #FFFFFF;
 }
 
 .content {

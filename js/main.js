@@ -27,7 +27,7 @@
 
 
     // Sidebar Toggler
-    $('.sidebar-toggler').click(function () {
+    $(document).ready(function() {
         $('.sidebar, .content').toggleClass("open");
         return false;
     });
