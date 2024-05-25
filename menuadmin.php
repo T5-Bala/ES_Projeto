@@ -53,11 +53,7 @@ if($_SESSION['nivel'] != 1){
             </div>
         </div>
         <!-- Spinner End -->
-
-
-       
-
-
+        
         <!-- Content Start -->
         <div class="content">
             <!-- Navbar Start -->

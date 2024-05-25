@@ -105,7 +105,7 @@ if($_SESSION['nivel'] != 1){
         <div class="content">
             <!-- Navbar Start -->
             <nav class="navbar navbar-expand bg-light navbar-light sticky-top px-4 py-0">
-            <a href="voltar" class="navbar-brand mx-4 mb-2">
+            <a href="voltar.php" class="navbar-brand mx-4 mb-2">
                     <h3 class="text-primary">Gestao de Salas</h3>
                 </a>
                 
