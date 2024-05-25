@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if($_SESSION['nivel'] != 1){
+if($_SESSION['nivel'] != 3){
    
         header('Location: index.html');
 }

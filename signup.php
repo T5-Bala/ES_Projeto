@@ -13,7 +13,7 @@ if(isset($_SESSION['nivel'])){
 
 <head>
     <meta charset="utf-8">
-    <title>DASHMIN - Bootstrap Admin Template</title>
+    <title>Gestor de Salas</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -66,45 +66,34 @@ if(isset($_SESSION['nivel'])){
                             </a>
                             <h3>Criar Conta</h3>
                         </div>
+                        <form action="registar.php" method="POST">
                         <div class="form-floating mb-3">
                             <input type="text" name="nome" class="form-control" id="floatingText" placeholder="jhondoe">
                             <label for="floatingText">Nome de utilizador</label>
                         </div>
                         <div class="form-floating mb-3">
-                            <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <input type="text" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                             <label for="floatingInput">Endereço Email</label>
                         </div>
                         <div class="form-floating mb-3">
                             <input type="number" name="idade"class="form-control" id="floatingInput" placeholder="name@example.com">
                             <label for="floatingInput">Idade</label>
                         </div>
+                        
                         <div class="form-floating mb-3">
-                        <select class="form-select form-select-sm mb-3" name="genero" aria-label=".form-select-sm example" class="form-control">
-                                <option selected>Open this select menu</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                            <input type="email" name="genero" class="form-control" id="floatingInput" placeholder="name@example.com">
-                            <label for="floatingInput">Genero</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="email" name="data_nasc" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <input type="date" name="data_nasc" class="form-control" id="floatingInput" placeholder="name@example.com">
                             <label for="floatingInput">Data de nascimento</label>
                         </div>
                         <div class="form-floating mb-4">
                             <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
                             <label for="floatingPassword">Password</label>
                         </div>
-                        <div class="d-flex align-items-center justify-content-between mb-4">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                            </div>
-                            <a href="">Forgot Password</a>
-                        </div>
+                        
+                            
+                        
                         <button type="submit" class="btn btn-primary py-3 w-100 mb-4">Sign Up</button>
-                        <p class="text-center mb-0">Already have an Account? <a href="">Sign In</a></p>
+                        <p class="text-center mb-0">Ja têm uma conta? <a href="signin.php">LogIn</a></p>
+                        </form>
                     </div>
                 </div>
             </div>
